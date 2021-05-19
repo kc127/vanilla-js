@@ -16,11 +16,11 @@ body {
 
 .container {
   display: flex;
-  width: 90 vw;
+  width: 90vw;
 }
 
 .panel {
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
@@ -35,7 +35,7 @@ body {
 
 .panel h3 {
   font-size: 24px;
-
+  position: absolute;
   bottom: 20px;
   left: 20px;
   margin: 0;
@@ -48,6 +48,7 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {

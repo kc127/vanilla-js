@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: f6f7fb;
   font-family: 'Muli', sans-serif;
   display: flex;
   justify-content: center;
@@ -13,4 +14,28 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.container {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.progress {
+  background-color: #3498db;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  
+}
+
 
